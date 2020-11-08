@@ -997,38 +997,10 @@ a.fn-item.active {
       10. Media Queries - Smaller than 500px
       ========================================================================== */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 200px) {
   .fixed-nav {
-    opacity: 1;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 99999;
-    background: #f2efe8;
-    width: 100%;
-    text-align: center;
-    padding: 4px;
+    display: none;
   }
-  a.fn-item {
-    display: inline;
-    margin-left: 10px;
-  }
-  blockquote {
-    margin-left: 0;
-  }
-  .post-holder {
-    padding-top: 20px;
-  }
-  #site-head {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    min-height: 240px;
-    padding: 15% 0;
-    height: 100%;
-    margin-bottom: 0rem;
-  }
-  
   .post-holder {
     padding-top: 20px;
   }
