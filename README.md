@@ -1,1 +1,3 @@
-# maslocks
+---
+Permalink: /index.html
+---
